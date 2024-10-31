@@ -12,6 +12,7 @@ import Tetanus from "./pages/Services/Tetanus";
 import NewbornScreening from "./pages/Services/NewbornScreening";
 import NewbornHearing from "./pages/Services/NewbornHearing";
 import FamilyPlanning from "./pages/Services/FamilyPlanning";
+import Gallery from "./pages/Gallery";
 
 const router = createBrowserRouter([
   {
@@ -67,6 +68,10 @@ const router = createBrowserRouter([
       {
         path: "/contacts",
         element: <Contacts />,
+      },
+      {
+        path: "/gallery",
+        element: <Gallery />,
       },
     ],
   },

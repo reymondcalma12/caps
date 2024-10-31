@@ -22,6 +22,7 @@ module.exports = {
     extend: {
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
+        varela: ['"Varela Round"', 'sans-serif'],
       },
       colors: {
         header: "#000000",

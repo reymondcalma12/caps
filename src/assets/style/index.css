@@ -112,6 +112,54 @@
 
   .montserrat {
     font-family: 'Montserrat', sans-serif;
+ 
   }
 
+  .aboutUsDiv img:nth-child(2), .aboutUsDiv img:nth-child(4) {
+    width: 148px!important;
+    height: 117px!important;
+  }
+  .aboutUsDiv img:nth-child(1), .aboutUsDiv img:nth-child(5) {
+    width: 133px!important;
+    height: 97px!important;
+  }
+
+  .aboutUsDiv {
+    transition: transform 1s ease; /* Change to 1s for a slower animation */
+  }
+  
+  .slide-out-left {
+    transform: translateX(-100%);
+  }
+  
+  .slide-out-right {
+    transform: translateX(100%);
+  }
+  
+  .slide-in-left {
+    transform: translateX(0);
+  }
+  
+  .slide-in-right {
+    transform: translateX(0);
+  }
+  
+  .icon-outline {
+    color: #FF456E; /* Icon color */
+    font-size: 50px; /* Size of the icon */
+    position: relative;
+  }
+  
+  .icon-outline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent;
+    border: 2px solid #FC7995; /* Outline color */
+    border-radius: 50%; /* Rounded outline */
+    z-index: -1; /* Place behind the icon */
+  }
 }
