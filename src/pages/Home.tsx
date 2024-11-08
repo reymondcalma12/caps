@@ -19,17 +19,12 @@ function Home() {
 
   return (
     <section  className=" overflow-auto">
-      <div className="container mx-auto h-full" style={sectionStyle}>
-        <div className="flex flex-col xl:flex-row items-center justify-center h-full">
-          <div className="xl:w-[60%] xl:text-left text-center">
-            <div className="flex items-center bg-primary  py-[10px] px-[20px] w-max gap-x-2 mb-[26px] rounded-md mx-auto xl:mx-0">
-              <Clock className="text-2xl text-white h-5" />
-              <div className=" uppercase text-base font-medium text-white tracking-[2.24px]">
-                Open 24 Hours!
-              </div>
-            </div>
+      <div className="container mx-auto h-auto" style={sectionStyle}>
+        <div className="flex flex-col xl:flex-row items-center justify-center h-[528px]">
+          <div className="xl:w-[60%] xl:text-left text-center mt-[5rem]">
+    
             <h1 className="h1 ">Paanakan Sa Mandaue</h1>
-            <h4 className="h4 montserrat mb-3" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight:'500', color:'#353535' }}>Where Every Birth is a Celebration Of Life!</h4>
+            <h4 className="h4 montserrat mb-3" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight:'500', color:'#353535' }}>— Your Trusted Partner in Maternity Care</h4>
             <a href="/about-us" className="montserrat">
               <Button className="rounded-full px-[50px] py-2 mb-5">About Us</Button>
             </a>
@@ -40,12 +35,23 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="container mx-auto h-[75vh] w-full" style={{ background:'white'}}>
-        <div className="flex flex-col xl:flex-row items-center justify-center h-full">
+      <div className="container  h-[350px] w-full border border-black flex flex-row p-0" >
+        <div className="flex flex-col xl:flex-row items-center justify-center h-full w-[40%] border border-black">
 
-          <div className="hidden lg:flex max-w-[814px] self-end">
-            {/* <img src={Img} alt="" className="" /> */}
-          </div>
+        </div>
+        <div className="flex flex-row items-center justify-evenly h-full w-[52%] border border-black">
+            <div className="h-[243px] w-[183px] border border-black rounded">
+
+            </div>
+            <div className="h-[243px] w-[183px] border border-black">
+
+            </div>
+            <div className="h-[243px] w-[183px] border border-black">
+
+            </div>
+        </div>
+        <div className="flex flex-col xl:flex-row items-center justify-center h-full w-[8%] border border-black">
+
         </div>
       </div>
       <Footer/>
