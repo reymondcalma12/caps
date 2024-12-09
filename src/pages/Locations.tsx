@@ -43,8 +43,13 @@ function Locations() {
 
           <div className=" h-full w-[70%]">
 
-            <div style={{ height:"100%", width:"100%"}}><iframe  style={{height:"100%", width:"100%"}}  frameBorder="0" scrolling="no"  src="https://maps.google.com/maps?width=100%25&amp;height=500&amp;hl=en&amp;q=Lopez%20Jaena%20St,%20Tipolo,%20Mandaue%20City,%206014%20Cebu+(Paanakan%20Sa%20Mandaue)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps vehicle tracker</a></iframe></div>
+            <div style={{ height:"100%", width:"100%"}}>
+              <iframe  style={{height:"100%", width:"100%"}}  frameBorder="0" scrolling="no"  src="https://maps.google.com/maps?width=100%25&amp;height=500&amp;hl=en&amp;q=Lopez%20Jaena%20St,%20Tipolo,%20Mandaue%20City,%206014%20Cebu+(Paanakan%20Sa%20Mandaue)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                <a href="https://www.gps.ie/">gps vehicle tracker</a>
+              </iframe>
             </div>
+            
+          </div>
 
           </div>
    

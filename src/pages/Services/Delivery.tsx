@@ -1,5 +1,7 @@
 import Main from "../../assets/images/deliveryMain.png";
 
+import babyDelivery from "../../assets/images/baby1Delivery.png";
+
 
 function Delivery() {
   return (
@@ -25,19 +27,40 @@ function Delivery() {
                     </div>
                 </div>
 
-                <div className=" h-[1550px] w-full mt-10 md:flex-row   border-black  flex flex-row justify-center items-center overflow-y-auto overflow-x-hidden flex-wrap scrollbar-thin  scrollbar-[#FF456E]" >
+                <div className=" h-[1600px] w-full mt-10 md:flex-row   border-black  flex flex-row justify-between items-center overflow-y-auto overflow-x-hidden flex-wrap scrollbar-thin  scrollbar-[#FF456E]" >
 
                           <div className="w-full h-[384px]  rounded-[10px] overflow-hidden border-black ">
                               <img src={Main} alt="" className="object-cover w-full h-full" />
                           </div>
                           <div className="w-full h-[384px]   overflow-hidden border-black border">
-                          
+
+                                    <div className="w-[40%] h-full border-black border">
+                                         <img src={babyDelivery} className="h-full w-full" />
+                                    </div>
+                                    <div className="w-[60%] h-full border-black border">
+
+                                    </div>
+
                           </div>
                           <div className="w-full h-[384px]   overflow-hidden border-black border">
-                          
+
+                                <div className="w-[60%] h-full border-black border">
+
+                                </div>
+                                <div className="w-[40%] h-full border-black border">
+
+                                </div>
+
                           </div>
                           <div className="w-full h-[384px]   overflow-hidden border-black border">
-                          
+
+                                <div className="w-[40%] h-full border-black border">
+
+                                </div>
+                                <div className="w-[60%] h-full border-black border">
+
+                                </div>
+
                           </div>
 
                 </div>
